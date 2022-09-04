@@ -11,4 +11,7 @@ Convenient String methods to work with string.
 * Open in your favorite IDE
 
 ## Usage
-Comming soon 
+1. To get array of String by delimiter \
+    ``String src = "Yo,Ho,Ho,Ho;`` \
+    ``String[] strings = StringUtils.toArray(src, ",")`` \
+   this will return ``{"Yo","Ho","Ho","Ho"}``
