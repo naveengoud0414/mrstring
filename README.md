@@ -2,7 +2,7 @@
 Convenient String methods to work with string.
 
 ## Requirements
-* JDK 17+
+* JDK 17
 * Gradle 7+
 
 ## SetUp
