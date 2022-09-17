@@ -24,10 +24,10 @@ dependencies {
 sonarqube {
     properties {
         property "sonar.sourceEncoding", "UTF-8"
-        property "sonar.java.source", ${project.sourceCompatibility}
+        property "sonar.java.source", "17"
         property "sonar.host.url",  "http://13.214.153.164:9000"
         property "sonar.password", "3c7bf4d4ef8e827e6adfea36a8dbf2729651cdce"
-        property "sonar.projectKey", ${project.name} 
+        property "sonar.projectKey", "mrstring"
 }
 }
 
